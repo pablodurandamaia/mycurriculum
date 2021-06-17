@@ -12,5 +12,17 @@ h1:hover{
 }
 
 .bgc{
-    background-color: gainsboro;
+    background-color: black;
+    color: white;
+}
+
+.lado {
+    background-color: rgb(71, 0, 0);
+    color: ghostwhite;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 1px 1px 3px #f3f3f3;
 }
