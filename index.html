@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilo.css">
+        <script src="app.js"></script>
+        <title>Meu Currículo</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="bgc col col-3 bordaR">
+                    <img class="img-fluid" src="images/take-your-heart.png" alt="">
+                    <h1 onclick="exibirsobre()">Sobre</h1>
+                    <br>
+                    <h1 onclick="exibirhabilidades()">Habilidades</h1>
+                    <br>
+                    <h1 onclick="exibirformacao()">Formação</h1>
+                    <br>
+                    <h1 onclick="exibirhobbies()">Hobbies</h1>
+                    <br>
+                    <h1 onclick="exibirbooks()">Books</h1>
+                    <div class="d-flex flex-row bd-highlight mb-3">
+                        <div class="p-2 bd-highlight"></div>
+                        <div class="p-2 bd-highlight"></div>
+                        <div class="p-2 bd-highlight"></div>
+                    </div>                    
+                </div>
+                <div id="sobre" style="display: block;" class="col col-9">
+                    <center><h2>Phantom Thieves of Hearts</h2></center>
+                    <p>Os Phantom Thieves of Hearts, também conhecidos simplesmento como os Phatom Thieves, são u m grupo dee usuários de Persona na franquia Persona 5. Cansados da enganação, hipocrisia e corrupção envolta deles, os Phantom Thieves são devotos a "roubar" os corações corrompidos dos adultos malignos para mudar e reformar a sociedade para melhor. Depois de seu primereiro assalto, o grupo foi nomeado.</p>
+                    <img class="img-fluid" src="images/pth.jpg" alt="">
+                    <p>O Grupo foi originalmente formado por Joker, Morgana, Ryuji Sakamoto e Ann Takamaki quando eles descobriram que o professor de volley da Escola  Shuhjin, Suguru Kamoshida, tinha abusado seus estudantes e molestado a amiga de Ann, Shiho Suzui, levando ela a tentar se suicidar o que a colocou em coma. No entanto, desde que nenhum estudante, resposável ou professor está disposto a deebater contra Kamoshida por conta de seus favoritismo vindo do diretor, o grupo decide resolver o problema por conta própria e fazer ele confessar o seus crimes roubando as distorções em seu coração que esta guardada dentro de seu palácio no Metaverso.</p>
+                </div>
+                <div id="habilidades" style="display: none;" class="col-9">
+                    <center><h2>Habilidades</h2></center>
+                    <p>Usando um misterioso aplicativo de smartphone, eles saem em aventuras fantásticas usando poderes de outro mundo para entrar nos corações das pessoas(especificamente adultos corruptos em posições de pooder) em oredem de reformar e transforma-los. Os Phantom Thieves percebem que a sociedade força as pessoas a vetir máscaras para proteger suas vulnerabilidades interiores, e confrontando a si mesmos e literalmente arrancando fora suas máscaras os heróis despertam seus Personas, usando seus poderes para ajudar aqueles em necessidade.</p>
+                    <img src="images/arsenejoker.jpg" class="img-fluid" alt="">
+                    <p>Um Persona é a manifestação da personalidade de um usuário de Persona. Um Persona é similar a uma Sombra. Sombras são a manifestação maléfica dos pensamentos interiores de alguém, enquanto um Persona é uma manifesção dos mesmos sentimento mas domada e treinada.</p>
+                </div>
+                <div id="formacao" style="display: none;" class="col-9">
+                    <center><h2>Formação</h2></center>
+                    <center><div>
+                        <br>
+                        <h3>Joker</h3>
+                        <p>Cursando Ensino Médio</p>
+                        <h3>Ann Takamaki</h3>
+                        <p>Cursando Ensino Médio</p>
+                        <h3>Ryuji Sakamoto</h3>
+                        <p>Cursando Ensino Médio</p>
+                        <h3>Yusuke Kitagawa</h3>
+                        <p>Cursando Ensino Médio</p>
+                        <h3>Makoto Nijima</h3>
+                        <p>Cursando Ensino Médio</p>
+                        <h3>Futaba Sakura</h3>
+                        <p>Indfinido</p>
+                        <h3>Haru Okumura</h3>
+                        <p>Cursando Ensino Médio</p>
+                        <h3>Goro Akechi</h3>
+                        <p>Cursando Ensino Médio</p>
+                    </div></center>            
+                </div>
+                <div id="hobbies" style="display: none;" class="col-9">
+                    <center><h2>Hobbies</h2></center>
+                    <h3>Joker</h3>
+                    <p>Gosta de jogar video games, ver filmes e sair com os amigos.</p>
+                    <h3>Ann Takamaki</h3>
+                    <p>Gosta de sair para comprar roupas, sair com os amigos e comer doces.</p>
+                    <h3>Ryuji Sakamoto</h3>
+                    <p>Gosta de matar aula, correr e sair com os amigos.</p>
+                </div>
+                <div id="books" style="display: none;" class="col-9">
+                    <center><h2>Books</h2></center>
+                    <ul>
+                        <li>Arsène Lupin O Ladrão de Casaca</li>
+                        <li>Arsène Lupin Contra Herlock Sholmes</li>
+                        <li>Arsène Lupin A Agulha Oca</li>
+                        <li>Arsène Lupin 813</li>
+                        <li>Arsène Lupin A Rolha de Cristal</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
